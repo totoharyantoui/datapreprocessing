@@ -15,3 +15,14 @@ precip = data['precip'].to_series()
 
 print(precip)
 precip.to_csv('/content/drive/MyDrive/Colab Notebooks/precipitation.csv',index=True, header=True)
+
+
+#read csv 
+import pandas as pd
+precip_csv = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Coaching/data_per_location.csv')
+
+precip_csv.head(3)
+precip_csv.tail(4)
+
+precip_csv.dtypes
+
