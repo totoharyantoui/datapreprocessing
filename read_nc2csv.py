@@ -19,7 +19,7 @@ precip.to_csv('/content/drive/MyDrive/Colab Notebooks/precipitation.csv',index=T
 
 #read csv 
 import pandas as pd
-precip_csv = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Coaching/data_per_location.csv', index_col=0, parse_dates=True)
+precip_csv = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Coaching/precipitation.csv', index_col=0, parse_dates=True)
 
 precip_csv.head(3)
 precip_csv.tail(4)
